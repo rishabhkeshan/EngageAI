@@ -399,11 +399,15 @@ class Field extends React.Component {
             hasBuffer: true,
           },
           {
-            text: `The geeky techy - Anusha Verma Chandraju(19BCE0724)`,
+            text: `The geeky techy - Achin Batwara(19BCE0621)`,
             hasBuffer: true,
           },
           {
-            text: `The whacky coder - Swamita Gupta(19BCE0728)`,
+            text: `The whacky coder - Rishabh Kunt(19BCE0921)`,
+            hasBuffer: true,
+          },
+          {
+            text: `The pru designer - Rohan Arora(19BCE2248)`,
             hasBuffer: true,
           },
         ],
@@ -508,7 +512,7 @@ class Field extends React.Component {
       if (this.state.run) {
 		//   Axios.get('https://api.dialogflow.com/v1/query?v=20150910&query=' + cmd + '&lang=en&sessionId=12345')
 		Axios.get(
-      "http://f0ba-35-222-184-171.ngrok.io/runModello?text=" + cmd
+      "http://02a2-34-125-236-167.ngrok.io/runModello?text=" + cmd
     ).then((res) => {
       console.log(res.data);
       const answer = res.data.answer;
